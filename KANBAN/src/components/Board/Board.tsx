@@ -446,7 +446,7 @@ export const Board = () => {
         </div>
 
         {/* Global Stats and Action */}
-        <div className="flex items-center gap-2 self-end md:self-auto">
+        <div className="flex flex-wrap items-center gap-2.5 w-full md:w-auto justify-start md:justify-end">
           {/* View Toggle */}
           <div className="flex items-center bg-slate-950/40 p-1 rounded-xl border border-white/5 mr-1">
             <button
